@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Notes Application</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="container">
+        <div class="notes-sidebar">
+            <input type="text" id="title" placeholder="Add Title">
+            <textarea  id="description" placeholder="Add Description"></textarea>
+            <div><button id="saveBtn">Save</button>
+            <button id="clearAllBtn">Clear All</button> 
+            <button id="deleteBtn" class="hidden delBtn" >Delete</button>
+        </div>
+            
+        </div>
+        <div class="notes-container "id="notesContainer">
+           
+        </div>
+    </div>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
